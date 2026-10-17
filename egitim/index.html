@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ücretsiz Eğitimler | Hugin &amp; Munin</title>
+<meta name="description" content="Türkiye'den başvurulabilecek ücretsiz kurs, sertifika programı ve bootcamp duyuruları; başvuru bağlantıları ve son başvuru tarihleriyle.">
+<style>
+:root{--bg:#f7f7f5;--fg:#1d1d1f;--muted:#5f6368;--card:#fff;--line:#e3e3e0;--accent:#1f5fa8;--tag:#eef1f5;--warn:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#151515;--fg:#ececec;--muted:#a0a0a0;--card:#202020;--line:#333;--accent:#7fb0ef;--tag:#2a2d33;--warn:#f28b82}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 16px 40px}a{color:var(--accent)}
+header h1{margin:0;font-size:26px}header p{margin:4px 0 0;color:var(--muted)}
+.top{font-size:14px;margin-bottom:12px}.top a{text-decoration:none}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:16px 0 8px}
+.filters select,.filters input{width:100%;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font:inherit}
+.opts{font-size:14px;color:var(--muted);margin-bottom:12px}.count{font-size:14px;color:var(--muted);margin:8px 0}
+.item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+.item h2{margin:0;font-size:18px;line-height:1.3}.inst{color:var(--muted);font-size:14px;margin:2px 0 8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}.tag,.flag{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--tag)}
+.flag.w{background:#f6e3ef;color:#7a1f55}.flag.c{background:#e6f2e6;color:#24622a}.flag.l{background:#fff1d6;color:#7a5200}
+@media (prefers-color-scheme:dark){.flag.w{background:#4a2a3c;color:#f3c4df}.flag.c{background:#25402a;color:#bfe3c3}.flag.l{background:#4a3a18;color:#f3dca5}}
+.item p{margin:6px 0}.who{font-size:14px;color:var(--muted)}.when{font-size:14px;margin:8px 0}.when.urgent{color:var(--warn)}
+.btns{display:flex;flex-wrap:wrap;gap:8px}.btn{display:inline-block;padding:7px 12px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-size:14px}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--line)}
+.note{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;padding-top:12px}.empty{color:var(--muted)}
+</style></head><body><main>
+<div class="top"><a href="/">← Hugin &amp; Munin</a></div>
+<header><h1>Ücretsiz Eğitimler</h1>
+<p>Türkiye'den başvurulabilecek ücretsiz kurslar ve programlar · 14 açık başvuru · 1 çevrim içi</p></header>
+<div class="filters">
+<select id="f-format" aria-label="Biçim"><option value="">Çevrim içi + yüz yüze</option><option value="CEVRIM_ICI">Çevrim içi</option><option value="YUZ_YUZE">Yüz yüze</option></select>
+<select id="f-city" aria-label="İl"><option value="">Bütün iller</option><option value="Adana">Adana</option><option value="Ankara">Ankara</option><option value="Bolu">Bolu</option><option value="Bursa">Bursa</option><option value="Denizli">Denizli</option><option value="Elazığ">Elazığ</option><option value="İzmir">İzmir</option><option value="Kahramanmaraş">Kahramanmaraş</option><option value="Muğla">Muğla</option><option value="Nevşehir">Nevşehir</option><option value="Van">Van</option></select>
+<select id="f-topic" aria-label="Konu"><option value="">Bütün konular</option><option value="DIL">Dil</option><option value="DIGER">Diğer</option><option value="KISISEL_GELISIM">Kişisel Gelişim</option><option value="MESLEK_BECERI">Meslek / Beceri</option><option value="SANAT_TASARIM">Sanat / Tasarım</option><option value="YAPAY_ZEKA_VERI">Yapay Zekâ / Veri</option></select>
+<input id="f-q" type="search" placeholder="Ara: kurum, program…" aria-label="Ara">
+</div>
+<label class="opts"><input type="checkbox" id="f-child"> Çocuk / genç kurslarını gizle</label>
+<div class="count" id="count"></div>
+<section id="list">
+<article class="item" data-format="CEVRIM_ICI" data-city="" data-topic="YAPAY_ZEKA_VERI"
+ data-child="0" data-search="dijital üniversite platformu yükseköğretim kurulu (yök) yök himayesinde boğaziçi, odtü ve itü gibi üniversitelerin akademisyenlerince yapay zekâ, veri analizi ve sürdürülebilirlik alanlarında 16 modülde ücretsiz çevrim içi eğitim verilecek. başvurular 20 ekim&#x27;e kadar dijitaluniversiteplatformu.org adresinden yapılabilir.  yapay zekâ / veri">
+<h2>Dijital Üniversite Platformu</h2>
+<div class="inst">Yükseköğretim Kurulu (YÖK)</div>
+<div class="tags"><span class="tag">Çevrim içi</span> <span class="tag">Yapay Zekâ / Veri</span> <span class="tag">Türkçe</span> </div>
+<p>YÖK himayesinde Boğaziçi, ODTÜ ve İTÜ gibi üniversitelerin akademisyenlerince yapay zekâ, veri analizi ve sürdürülebilirlik alanlarında 16 modülde ücretsiz çevrim içi eğitim verilecek. Başvurular 20 Ekim&#x27;e kadar dijitaluniversiteplatformu.org adresinden yapılabilir.</p>
+<p class="who">Kimler katılabilir: Herkese açık</p>
+<div class="when urgent">Son başvuru: <b>20 Ekim 2026</b> (3 gün kaldı)</div>
+<div class="btns"><a class="btn" href="http://www.dijitaluniversiteplatformu.org" target="_blank" rel="noopener">Başvuru sayfası</a><a class="btn alt" href="https://www.yok.gov.tr/tr/news/dijital-universite-platformu-icin-basvurular-basladi-Ow4MU" target="_blank" rel="noopener">Haber</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Van" data-topic="DIL"
+ data-child="0" data-search="kürtçe kurmancî kursu eğitim sen van şubesi eğitim sen van şubesi, üyelerine yönelik ücretsiz kürtçe kurmancî kursu açıyor. başvurular 21 ekim 2026 tarihine kadar telefon üzerinden isim yazdırılarak alınıyor. van dil">
+<h2>Kürtçe Kurmancî Kursu</h2>
+<div class="inst">Eğitim Sen Van Şubesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Van</span> <span class="tag">Dil</span> <span class="tag">Diğer dil</span> </div>
+<p>Eğitim Sen Van Şubesi, üyelerine yönelik ücretsiz Kürtçe Kurmancî kursu açıyor. Başvurular 21 Ekim 2026 tarihine kadar telefon üzerinden isim yazdırılarak alınıyor.</p>
+<p class="who">Kimler katılabilir: Eğitim Sen üyeleri</p>
+<div class="when">Son başvuru: <b>21 Ekim 2026</b> (4 gün kaldı)</div>
+<div class="btns"><a class="btn alt" href="https://www.bolgegazetesivan.com/vanda-ucretsiz-kurtce-kurmanci-kursu-aciliyor-basvurular-basladi" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Adana" data-topic="SANAT_TASARIM"
+ data-child="0" data-search="ritim, halk oyunları, erbane ve bağlama kursları adana büyükşehir belediyesi konservatuvarı adana büyükşehir belediyesi konservatuvarı tarafından ritim, halk oyunları, erbane ve bağlama alanlarında ücretsiz kurslar verilecektir. başvurular mimar sinan açık hava tiyatrosu&#x27;nda şahsen alınmaktadır. adana sanat / tasarım">
+<h2>Ritim, Halk Oyunları, Erbane ve Bağlama Kursları</h2>
+<div class="inst">Adana Büyükşehir Belediyesi Konservatuvarı</div>
+<div class="tags"><span class="tag">Yüz yüze · Adana</span> <span class="tag">Sanat / Tasarım</span> <span class="tag">Türkçe</span> </div>
+<p>Adana Büyükşehir Belediyesi Konservatuvarı tarafından ritim, halk oyunları, erbane ve bağlama alanlarında ücretsiz kurslar verilecektir. Başvurular Mimar Sinan Açık Hava Tiyatrosu&#x27;nda şahsen alınmaktadır.</p>
+<p class="who">Kimler katılabilir: Müziğe ve halk oyunlarına ilgi duyan vatandaşlar</p>
+<div class="when">Son başvuru: <b>23 Ekim 2026</b> (6 gün kaldı)</div>
+<div class="btns"><a class="btn alt" href="https://adanatorosgazetesi.net/buyuksehirden-sanatseverlere-ucretsiz-kurs-firsati" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Bolu" data-topic="MESLEK_BECERI"
+ data-child="0" data-search="futbol aday hakem kursu tff bolu il hakem kurulu tff bolu il hakem kurulu, hakemlik kariyeri hedefleyen gençler için ücretsiz aday hakem kursu açıyor. başvurular 30 ekim 2026 tarihine kadar devam ediyor. bolu meslek / beceri">
+<h2>Futbol Aday Hakem Kursu</h2>
+<div class="inst">TFF Bolu İl Hakem Kurulu</div>
+<div class="tags"><span class="tag">Yüz yüze · Bolu</span> <span class="tag">Meslek / Beceri</span> <span class="tag">Türkçe</span> <span class="tag">Sertifikalı</span> </div>
+<p>TFF Bolu İl Hakem Kurulu, hakemlik kariyeri hedefleyen gençler için ücretsiz aday hakem kursu açıyor. Başvurular 30 Ekim 2026 tarihine kadar devam ediyor.</p>
+<p class="who">Kimler katılabilir: 16-28 yaş aralığında, en az lise öğrencisi/mezunu olan, erkeklerde 1.70m ve kadınlarda 1.60m boy şartını sağlayan adaylar</p>
+<div class="when">Son başvuru: <b>30 Ekim 2026</b> (13 gün kaldı)</div>
+<div class="btns"><a class="btn alt" href="https://www.koroglugazetesi.com/ucretsiz-futbol-aday-hakem-kursu-aciliyor" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Ankara" data-topic="MESLEK_BECERI"
+ data-child="0" data-search="pomem parkur hazırlık kursu ankara büyükşehir belediyesi ankara büyükşehir belediyesi, pomem sınavlarına hazırlanan polis adayları için ücretsiz parkur hazırlık kursu başlatıyor. başvurular parkurkursu.ankara.bel.tr adresinden alınmaktadır. ankara meslek / beceri">
+<h2>POMEM Parkur Hazırlık Kursu</h2>
+<div class="inst">Ankara Büyükşehir Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Ankara</span> <span class="tag">Meslek / Beceri</span> <span class="tag">Türkçe</span> </div>
+<p>Ankara Büyükşehir Belediyesi, POMEM sınavlarına hazırlanan polis adayları için ücretsiz parkur hazırlık kursu başlatıyor. Başvurular parkurkursu.ankara.bel.tr adresinden alınmaktadır.</p>
+<p class="who">Kimler katılabilir: Polis Meslek Eğitim Merkezi (POMEM) sınavlarına katılmayı hedefleyen adaylar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.gazeteilksayfa.com/abbden-ilgililere-pomem-kursu-basvurular-basladi-312022h.htm" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Nevşehir" data-topic="SANAT_TASARIM"
+ data-child="0" data-search="seramik dekorlama kursu nevşehir belediyesi nevşehir belediyesi tarafından ücretsiz seramik dekorlama kursu açılıyor. başvurular www.nevsehir.bel.tr adresinden online olarak yapılmaktadır. nevşehir sanat / tasarım">
+<h2>Seramik Dekorlama Kursu</h2>
+<div class="inst">Nevşehir Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Nevşehir</span> <span class="tag">Sanat / Tasarım</span> <span class="tag">Türkçe</span> </div>
+<p>Nevşehir Belediyesi tarafından ücretsiz Seramik Dekorlama Kursu açılıyor. Başvurular www.nevsehir.bel.tr adresinden online olarak yapılmaktadır.</p>
+<p class="who">Kimler katılabilir: Vatandaşlar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.kapadokyahaber.com.tr/haber/28971873/nevsehirde-ucretsiz-seramik-kursu-icin-basvurular-basliyor" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Kahramanmaraş" data-topic="SANAT_TASARIM"
+ data-child="0" data-search="çocuklara özel yağlı boya kursu kahramanmaraş büyükşehir belediyesi kahramanmaraş büyükşehir belediyesi 9-14 yaş grubu çocuklar için ücretsiz hafta sonu yağlı boya kursu başlatıyor. başvurular belediyenin online formu üzerinden yapılıyor. kahramanmaraş sanat / tasarım">
+<h2>Çocuklara Özel Yağlı Boya Kursu</h2>
+<div class="inst">Kahramanmaraş Büyükşehir Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Kahramanmaraş</span> <span class="tag">Sanat / Tasarım</span> <span class="tag">Türkçe</span> </div>
+<p>Kahramanmaraş Büyükşehir Belediyesi 9-14 yaş grubu çocuklar için ücretsiz hafta sonu yağlı boya kursu başlatıyor. Başvurular belediyenin online formu üzerinden yapılıyor.</p>
+<p class="who">Kimler katılabilir: 9-14 yaş aralığındaki çocuklar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn" href="https://kahramanmaras.bel.tr/form/cocuklara-ozel-yagli-boya-kursu-basvuru-formu-26821" target="_blank" rel="noopener">Başvuru sayfası</a><a class="btn alt" href="https://www.gazetecin.com/sanat/kahramanmarasta-cocuklara-ozel-ucretsiz-yagli-boya-kursu/65050" target="_blank" rel="noopener">Haber</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Ankara" data-topic="SANAT_TASARIM"
+ data-child="0" data-search="ücretsiz halk oyunları kursu ankara üniversitesi sağlık kültür ve spor daire başkanlığı ankara üniversitesi öğrencilerine yönelik cebeci yerleşkesi&#x27;nde ücretsiz halk oyunları kursu verilecektir. başvurular üniversitenin sks başvuru sistemi üzerinden online alınmaktadır. ankara sanat / tasarım">
+<h2>Ücretsiz Halk Oyunları Kursu</h2>
+<div class="inst">Ankara Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı</div>
+<div class="tags"><span class="tag">Yüz yüze · Ankara</span> <span class="tag">Sanat / Tasarım</span> <span class="tag">Türkçe</span> </div>
+<p>Ankara Üniversitesi öğrencilerine yönelik Cebeci Yerleşkesi&#x27;nde ücretsiz halk oyunları kursu verilecektir. Başvurular üniversitenin SKS Başvuru Sistemi üzerinden online alınmaktadır.</p>
+<p class="who">Kimler katılabilir: Ankara Üniversitesi öğrencileri</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.ankaranethaber.com/ankara-universitesi-ogrencileri-dikkat-ucretsiz-kurs-icin-basvuru-donemi-basladi" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Denizli" data-topic="SANAT_TASARIM"
+ data-child="0" data-search="ücretsiz resim kursu pamukkale belediyesi pamukkale belediyesi, 8 yaş ve üzeri çocuklara yönelik ücretsiz resim kursu başlatıyor. başvurular belediyenin resmi web sitesinden veya telefonla alınmaktadır. denizli sanat / tasarım">
+<h2>Ücretsiz Resim Kursu</h2>
+<div class="inst">Pamukkale Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Denizli</span> <span class="tag">Sanat / Tasarım</span> <span class="tag">Türkçe</span> </div>
+<p>Pamukkale Belediyesi, 8 yaş ve üzeri çocuklara yönelik ücretsiz resim kursu başlatıyor. Başvurular belediyenin resmi web sitesinden veya telefonla alınmaktadır.</p>
+<p class="who">Kimler katılabilir: 8 yaş ve üzerindeki çocuklar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn" href="https://www.pamukkale.bel.tr/" target="_blank" rel="noopener">Başvuru sayfası</a><a class="btn alt" href="https://gazetesehir.com/haber/28974125/pamukkale-belediyesinden-cocuklara-ucretsiz-resim-kursu" target="_blank" rel="noopener">Haber</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="İzmir" data-topic="MESLEK_BECERI"
+ data-child="0" data-search="mahalle merkezleri hobi ve meslek edindirme kursları karşıyaka belediyesi karşıyaka belediyesi ve halk eğitimi merkezi iş birliğiyle el sanatları, dikiş, makyaj ve takı tasarımı branşlarında ücretsiz kurslar açılıyor. başvurular ilgili merkezler üzerinden yüz yüze veya telefonla yapılabilir. izmir meslek / beceri">
+<h2>Mahalle Merkezleri Hobi ve Meslek Edindirme Kursları</h2>
+<div class="inst">Karşıyaka Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · İzmir</span> <span class="tag">Meslek / Beceri</span> <span class="tag">Türkçe</span> </div>
+<p>Karşıyaka Belediyesi ve Halk Eğitimi Merkezi iş birliğiyle el sanatları, dikiş, makyaj ve takı tasarımı branşlarında ücretsiz kurslar açılıyor. Başvurular ilgili merkezler üzerinden yüz yüze veya telefonla yapılabilir.</p>
+<p class="who">Kimler katılabilir: 18 yaş ve üzerindeki vatandaşlar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.egetelgraf.com/karsiyakada-ucretsiz-kurs-kayitlari-basladi-iste-egitim-verilecek-branslar" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Bursa" data-topic="MESLEK_BECERI"
+ data-child="0" data-search="yıl-mek mesleki ve teknik eğitim kursları yıldırım belediyesi (yıl-mek) yıl-mek bünyesinde 34 kurs merkezinde 82 farklı branşta ücretsiz meslek ve sanat eğitimi verilecek. yeni dönem için ön başvurular devam ediyor. bursa meslek / beceri">
+<h2>YIL-MEK Mesleki ve Teknik Eğitim Kursları</h2>
+<div class="inst">Yıldırım Belediyesi (YIL-MEK)</div>
+<div class="tags"><span class="tag">Yüz yüze · Bursa</span> <span class="tag">Meslek / Beceri</span> <span class="tag">Türkçe</span> </div>
+<p>YIL-MEK bünyesinde 34 kurs merkezinde 82 farklı branşta ücretsiz meslek ve sanat eğitimi verilecek. Yeni dönem için ön başvurular devam ediyor.</p>
+<p class="who">Kimler katılabilir: Farklı yaş gruplarından ilçe sakinleri</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.bursatv.com.tr/bursada-ucretsiz-egitim-donemi-yil-mek-34-merkezde-kurs-verecek" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Bursa" data-topic="KISISEL_GELISIM"
+ data-child="0" data-search="yıldırım gençlik merkezi güz okulu yıldırım belediyesi yıldırım belediyesi tarafından çocuklar ve yetişkinler için ingilizce, diksiyon, fotoğrafçılık ve resim gibi alanlarda ücretsiz kurslar açılıyor. kayıtlar internet üzerinden devam ediyor. bursa kişisel gelişim">
+<h2>Yıldırım Gençlik Merkezi Güz Okulu</h2>
+<div class="inst">Yıldırım Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Bursa</span> <span class="tag">Kişisel Gelişim</span> <span class="tag">Türkçe</span> </div>
+<p>Yıldırım Belediyesi tarafından çocuklar ve yetişkinler için İngilizce, diksiyon, fotoğrafçılık ve resim gibi alanlarda ücretsiz kurslar açılıyor. Kayıtlar internet üzerinden devam ediyor.</p>
+<p class="who">Kimler katılabilir: Çocuklar (8-15 yaş) ve yetişkinler</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.bursahakimiyet.com.tr/bursa/bursa-da-her-yastan-vatandasa-ucretsiz-kurs-firsati-basvurular-devam-ediyor-1728731" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Muğla" data-topic="KISISEL_GELISIM"
+ data-child="0" data-search="menteşe belediyesi kış kursları menteşe belediyesi menteşe belediyesi çocuklar ve yetişkinler için 29 branşta ücretsiz kış kursları düzenliyor. başvurular konakaltı iskender alper kültür merkezi&#x27;nden alınmaktadır. muğla kişisel gelişim">
+<h2>Menteşe Belediyesi Kış Kursları</h2>
+<div class="inst">Menteşe Belediyesi</div>
+<div class="tags"><span class="tag">Yüz yüze · Muğla</span> <span class="tag">Kişisel Gelişim</span> <span class="tag">Türkçe</span> </div>
+<p>Menteşe Belediyesi çocuklar ve yetişkinler için 29 branşta ücretsiz kış kursları düzenliyor. Başvurular Konakaltı İskender Alper Kültür Merkezi&#x27;nden alınmaktadır.</p>
+<p class="who">Kimler katılabilir: Çocuklar (robotik kodlama için 11-17 yaş, masa tenisi/satranç için 6-12 yaş) ve yetişkinler</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://www.aksiyon.com.tr/kista-yetenekler-gelisecek-mentese-de-ucretsiz-kurs-kayitlari-acildi-372955" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+<article class="item" data-format="YUZ_YUZE" data-city="Elazığ" data-topic="DIGER"
+ data-child="0" data-search="keban boks ve kick-boks kursu keban gençlik ve spor ilçe müdürlüğü keban gençlik ve spor ilçe müdürlüğü tarafından 7-14 yaş grubuna yönelik ücretsiz boks ve kick-boks kursları başlatıldı. eğitimler ilçe kapalı spor salonunda verilecek. elazığ diğer">
+<h2>Keban Boks ve Kick-Boks Kursu</h2>
+<div class="inst">Keban Gençlik ve Spor İlçe Müdürlüğü</div>
+<div class="tags"><span class="tag">Yüz yüze · Elazığ</span> <span class="tag">Diğer</span> <span class="tag">Türkçe</span> </div>
+<p>Keban Gençlik ve Spor İlçe Müdürlüğü tarafından 7-14 yaş grubuna yönelik ücretsiz boks ve kick-boks kursları başlatıldı. Eğitimler ilçe kapalı spor salonunda verilecek.</p>
+<p class="who">Kimler katılabilir: 7-14 yaş grubu çocuklar</p>
+<div class="when">Son başvuru tarihi belirtilmemiş</div>
+<div class="btns"><a class="btn alt" href="https://keban.com.tr/keban-da-ucretsiz-boks-ve-kick-boks-kurs-basvurulari-basladi/4410/" target="_blank" rel="noopener">Haber (başvuru bilgisi burada)</a></div>
+</article>
+</section>
+<p class="note">Bilgiler kurumların duyurularından ve haberlerden derlenir; tarih ve koşullar değişebilir. Başvurmadan önce
+kurumun kendi sayfasından kontrol edin. Son güncelleme: 17 Ekim 2026.</p>
+</main>
+<script>
+(function(){
+ var f=document.getElementById('f-format'),c=document.getElementById('f-city'),t=document.getElementById('f-topic'),
+     q=document.getElementById('f-q'),k=document.getElementById('f-child'),n=document.getElementById('count'),
+     items=[].slice.call(document.querySelectorAll('.item'));
+ function run(){
+  var fv=f.value,cv=c.value,tv=t.value,qv=q.value.trim().toLocaleLowerCase('tr'),shown=0;
+  items.forEach(function(el){
+   var d=el.dataset,ok=true;
+   if(fv==='CEVRIM_ICI'&&!(d.format==='CEVRIM_ICI'||d.format==='KARMA'))ok=false;
+   if(fv==='YUZ_YUZE'&&!(d.format==='YUZ_YUZE'||d.format==='KARMA'))ok=false;
+   if(cv&&d.city!==cv)ok=false; if(tv&&d.topic!==tv)ok=false;
+   if(k.checked&&d.child==='1')ok=false; if(qv&&d.search.indexOf(qv)<0)ok=false;
+   el.style.display=ok?'':'none'; if(ok)shown++;
+  });
+  n.textContent=shown+' eğitim gösteriliyor';
+ }
+ [f,c,t,k].forEach(function(x){x.addEventListener('change',run)}); q.addEventListener('input',run); run();
+})();
+</script>
+</body></html>
